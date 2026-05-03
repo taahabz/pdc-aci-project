@@ -1,0 +1,12 @@
+FROM python:3.11-slim
+
+WORKDIR /srv
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY app/ ./app/
+
+WORKDIR /srv/app
+
+CMD ["python", "app.py"]
