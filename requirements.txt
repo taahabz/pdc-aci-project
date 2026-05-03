@@ -1,3 +1,7 @@
 flask==3.0.*
 redis==5.0.*
 gunicorn==21.*
+requests>=2.31
+streamlit>=1.35
+plotly>=5.22
+pandas>=2.0
