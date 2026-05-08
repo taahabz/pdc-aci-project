@@ -32,6 +32,10 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+
+docs/
+
+
 # pytest
 .pytest_cache/
 .coverage
